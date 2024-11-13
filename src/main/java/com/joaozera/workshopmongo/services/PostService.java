@@ -19,4 +19,7 @@ public class PostService {
     public Post findById(String id) {
         return repo.findById(id).orElseThrow(() -> new ObjectNotFoundException(id));
     }
+    public List<Post> findByTitle(String txt) {
+        return repo.searchTitle(txt);
+    }
 }

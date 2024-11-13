@@ -31,6 +31,7 @@ public class Instantiation implements CommandLineRunner {
         sdf.setTimeZone(TimeZone.getTimeZone("GMT"));
 
         userRepository.deleteAll();
+        postRepository.deleteAll();
 
         User carti = new User(null, "Playboi  Carti", "carti@gmail.com");
         User asuka = new User(null, "Asuka Langley", "asuka@gmail.com");
