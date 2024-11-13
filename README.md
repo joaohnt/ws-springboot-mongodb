@@ -40,4 +40,7 @@ GET /posts/titlesearch: Pesquisa posts por título.
 
 GET /posts/fullsearch: Pesquisa posts com texto, data mínima e data máxima.
 
+
+# João Pedro Carvalho Garcia
+
 https://www.linkedin.com/in/joaohnt
